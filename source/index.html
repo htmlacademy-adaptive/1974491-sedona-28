@@ -3,10 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    <header class="page-header edge-shadows">
+      <nav class="main-nav main-nav__opened">
+        <button class="main-nav__close-button" type="button">
+            <span class="visually-hidden">Закрыть меню</span>
+          </button>
+        <ul class="main-nav__list menu">
+          <li class="menu__item">
+            <a class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="photo.html">Фото и видео</a>
+          </li>
+          <li class="menu__item menu__item--spacer">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="form.html">Форма отзыва</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="page-header__logo">
+          <picture>
+
+
+            <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" alt="Лого Седона" width="185" height="96">
+          </picture>
+        </a>
+      <div class="page-header__menu-bar">
+        <button class="page-header__open-nav-button" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      </div>
+    </header>
 
   </body>
 </html>
