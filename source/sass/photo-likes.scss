@@ -1,0 +1,24 @@
+.likes {
+  display: flex;
+  width: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes__like-button {
+
+  fill: $silver-chalice;
+}
+
+.likes__count {
+  font-weight: bold;
+}
+
+/*************************************
+ * desktop styles
+ *************************************/
+@media (min-width: $desktop-width) {
+  .likes__like-button {
+    fill: $white;
+  }
+}

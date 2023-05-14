@@ -1,1 +1,39 @@
-// Начните писать стили здесь
+@import "font-face";
+@import "variables";
+@import "mixins";
+@import "scaffolding";
+@import "common-button";
+@import "common-visually-hidden";
+
+@import "common-page-header";
+@import "common-main-nav";
+@import "common-menu";
+@import "common-promo";
+
+@import "common-edge-shadows";
+@import "common-main";
+
+@import "common-page-footer";
+@import "common-hashtag";
+@import "common-social";
+@import "common-copyright";
+
+// Index classes
+@import "index-reasons-header";
+@import "index-reasons";
+@import "index-reason";
+@import "index-search-hotel";
+@import "index-map";
+
+// Photo classes
+@import "photo-video-header";
+@import "photo-gallery";
+@import "photo-gallery-image";
+@import "photo-likes";
+@import "video";
+@import "photo-video";
+
+// Feedback form classes
+@import "form-feedback-header";
+@import "form-feedback";
+@import "form";
