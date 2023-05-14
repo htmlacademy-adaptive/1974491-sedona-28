@@ -1,0 +1,65 @@
+.search-hotel {
+  padding: 30px 20px 50px 20px;
+
+  text-align: center;
+}
+
+.search-hotel__title {
+  @include reset-mar-pad;
+
+  margin-bottom: 30px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.search-hotel__description {
+  @include reset-mar-pad;
+
+  margin-bottom: 40px;
+  padding: 0 5px;
+
+  line-height: 24px;
+  text-transform: uppercase;
+
+  br {
+    display: none;
+  }
+}
+
+
+/*************************************
+* tablet styles
+*************************************/
+@media (min-width: $tablet-width) {
+  .search-hotel {
+    width: $tablet-width;
+    margin: 0 auto;
+
+    background-color: $white;
+    padding: 55px 155px;
+
+  }
+
+  .search-hotel__description {
+    padding: 0;
+
+    br {
+      display: inline;
+    }
+  }
+
+  .search-hotel__wrapper {
+    width: 460px;
+    margin: 0 auto;
+  }
+}
+
+/*************************************
+* desktop styles
+*************************************/
+@media (min-width: $desktop-width) {
+  .search-hotel {
+    width: $desktop-width;
+  }
+}
