@@ -51,13 +51,13 @@
   }
 
   .reasons__item {
-    &:nth-child(7) {
-      order: 4;
-    }
+    // &:nth-child(7) {
+    //   order: 4;
+    // }
 
-    &:nth-child(8) {
-      order: 3;
-    }
+    // &:nth-child(8) {
+    //   order: 3;
+    // }
 
     &--invert {
       flex-direction: row-reverse;

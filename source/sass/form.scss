@@ -11,7 +11,7 @@
 }
 
 .form__fieldset {
-  @include reset-mar-pad;
+
   border: 0;
 
   &--review {
@@ -38,7 +38,7 @@
 }
 
 .form__group {
-  @include reset-mar-pad;
+
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -69,7 +69,7 @@
 
 .form__input {
   width: 100%;
-  min-width: 0; // Firefox hack https://github.com/philipwalton/flexbugs/issues/152
+  min-width: 0;
   padding: 20px;
 
   font-weight: bold;
@@ -222,11 +222,21 @@
 
   .form__container {
 
+
+
     &--fullname {
       position: relative;
+      order: 1;
+      width: 280px;
+      // padding-left: 54px;
+
+
+    }
+
+    &--communication {
+      // padding-top: 50px;
       order: 2;
       width: 324px;
-      padding-left: 54px;
 
       &::before {
         position: absolute;
@@ -239,17 +249,12 @@
         top: 0;
         left: 0;
       }
-    }
 
-    &--communication {
-      padding-top: 50px;
-      order: 3;
-      width: 100%;
     }
 
     &--impression {
-      order: 1;
-      width: 324px;
+      order: 3;
+      width: 100%;
     }
 
     &--sights {
@@ -289,34 +294,41 @@
       padding-left: 20px;
       padding-right: 20px;
       text-align: center;
-
-      &::before {
-        position: absolute;
-        content: "";
-        height: 1px;
-        width: 125px;
-        flex-grow: 1;
-        flex-shrink: 0;
-        background: $gray-mercury-e5;
-        top: 50%;
-        left: 0;
-      }
-
-      &::after {
-        position: absolute;
-        content: "";
-        height: 1px;
-        width: 125px;
-        flex-grow: 1;
-        flex-shrink: 0;
-        background: $gray-mercury-e5;
-        top: 50%;
-        right: 0;
-      }
     }
 
     &--impression {
-      margin-left: 0;
+      // margin-left: 0;
+      position: relative;
+      margin-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+
+            &::before {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 125px;
+              flex-grow: 1;
+              flex-shrink: 0;
+              background: $gray-mercury-e5;
+              top: 50%;
+              left: 0;
+            }
+
+            &::after {
+              position: absolute;
+              content: "";
+              height: 1px;
+              width: 125px;
+              flex-grow: 1;
+              flex-shrink: 0;
+              background: $gray-mercury-e5;
+              top: 50%;
+              right: 0;
+            }
+
+
     }
 
     &--sights {
@@ -419,6 +431,40 @@
       padding-left: 80px;
     }
   }
+
+  // .form__container {
+  //   &:nth-child(1) {
+  //     order: 0;
+  //   }
+
+  //   &:nth-child(2) {
+  //     order: 1;
+  //   }
+
+  //   &:nth-child(3) {
+  //     order: 2;
+  //   }
+
+  //   &:nth-child(4) {
+  //     order: 4;
+  //   }
+
+  //   &:nth-child(5) {
+  //     order: 5;
+  //   }
+
+  //   &:nth-child(6) {
+  //     order: 6;
+  //   }
+
+  //   &:nth-child(7) {
+  //     order: 7;
+  //   }
+
+  //   &:nth-child(8) {
+  //     order: 8;
+  //   }
+  // }
 
   .form__label-hidden {
     display: none;
