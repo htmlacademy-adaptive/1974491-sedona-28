@@ -1704,7 +1704,7 @@ input[type=radio].visually-hidden {
   }
   .form__container--communication {
     order: 2;
-    width: 324px;
+    width: 280px;
   }
   .form__container--communication::before {
     position: absolute;
@@ -1738,6 +1738,12 @@ input[type=radio].visually-hidden {
     justify-content: space-between;
     width: 100%;
     color: #333333;
+  }
+
+  .form__selector-label-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .form__legend {
@@ -1862,10 +1868,10 @@ input[type=radio].visually-hidden {
  *************************************/
 @media (min-width: 1200px) {
   .form__container--fullname {
-    width: 480px;
+    width: 402px;
   }
   .form__container--impression {
-    width: 480px;
+    width: 100%;
     padding-left: 80px;
   }
 
@@ -1875,7 +1881,7 @@ input[type=radio].visually-hidden {
 
   .form__group-wrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
 
   .form__group {
