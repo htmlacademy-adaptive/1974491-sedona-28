@@ -236,7 +236,7 @@
     &--communication {
       // padding-top: 50px;
       order: 2;
-      width: 324px;
+      width: 280px;
 
       &::before {
         position: absolute;
@@ -277,6 +277,12 @@
       width: 100%;
       color: $black-shaft;
     }
+  }
+
+  .form__selector-label-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .form__legend {
@@ -423,11 +429,11 @@
 
   .form__container {
     &--fullname {
-      width: 480px;
+      width: 402px;
     }
 
     &--impression {
-      width: 480px;
+      width: 100%;
       padding-left: 80px;
     }
   }
@@ -472,7 +478,9 @@
 
   .form__group-wrapper {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    flex-direction: column;
+
   }
 
   .form__group {
