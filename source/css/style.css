@@ -357,7 +357,7 @@ input[type=radio].visually-hidden {
     background-color: #ffffff;
     background-image: url("../img/bg-intro-triangle-tablet.svg"), url("../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat, no-repeat;
-    background-position: bottom, center top;
+    background-position: 50% 100%, center top;
     background-size: auto, cover;
     height: 518px;
   }
@@ -538,22 +538,22 @@ input[type=radio].visually-hidden {
   opacity: 0.3;
 }
 
-.social__icon-VK {
+.social__icon-vk {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 18px;
-  height: 14px;
+  width: 24px;
+  height: 24px;
   fill: #ffffff;
   transform: translate(-50%, -50%);
 }
 
-.social__icon-telegramm {
+.social__icon-telegram {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 9px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   fill: #ffffff;
   transform: translate(-50%, -50%);
 }
@@ -562,8 +562,8 @@ input[type=radio].visually-hidden {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 20px;
-  height: 14px;
+  width: 24px;
+  height: 24px;
   fill: #ffffff;
   transform: translate(-50%, -50%);
 }
