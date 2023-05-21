@@ -1,17 +1,3 @@
-<svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_104_992)">
-<path d="M21.1813 5H6.81331C5.30618 5 4 6.3 4 7.8V16.1C4 17.7 5.30618 19 6.81331 19H21.1813C22.7889 19 23.9946 17.7 23.9946 16.2V7.8C24.095 6.3 22.7889 5 21.1813 5ZM11.0333 15.4V8.6L17.8656 12L11.0333 15.4Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_d_104_992" x="-2" y="0" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_104_992"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_104_992" result="shape"/>
-</filter>
-</defs>
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015" xml:space="preserve">
+  <path fill="#ffffff" d="M17.145,0H2.835C1.275,0,0,1.275,0,2.835v8.345c0,1.56,1.275,2.835,2.835,2.835h14.31c1.56,0,2.835-1.275,2.835-2.835V2.835 C19.979,1.275,18.704,0,17.145,0z M7.036,10.392V3.623l6.769,3.384L7.036,10.392z"/>
 </svg>
