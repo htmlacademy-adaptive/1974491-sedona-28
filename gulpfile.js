@@ -76,13 +76,13 @@ export const svg =() => {
 }
 
 export const sprite = () => {
-  return gulp.src('source/img/icons/*.svg')
-  .pipe(svgo())
-  .pipe(svgstore({
-    inlineSvg:true
-  }))
-  .pipe(rename('sprite.svg'))
-  .pipe(gulp.dest('build/img'))
+  return gulp.src(['source/img/icons/*.svg'])
+    .pipe(svgo())
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename('sprite.svg'))
+    .pipe(gulp.dest('build/img'));
 }
 
 // Copy
@@ -165,7 +165,6 @@ export default gulp.series(
     createWebP
   ),
     gulp.series(
-
       server,
       watcher,
     )
