@@ -20,5 +20,8 @@
 @media (min-width: $desktop-width) {
   .likes__like-button {
     fill: $white;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
   }
 }
