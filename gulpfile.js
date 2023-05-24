@@ -56,6 +56,7 @@ export const copy = () => {
     "source/fonts/*.{woff,woff2}",
     "source/img/favicons/*",
     "source/*.ico",
+    "source/css/normalize.css"
 ], {
   base: "source"
 })
@@ -134,7 +135,7 @@ export const build = gulp.series(
     svg,
     sprite,
     html,
-    webp
+   // webp
   )
 )
 
@@ -148,7 +149,7 @@ export default gulp.series(
     svg,
     sprite,
     html,
-    webp
+  //  webp
   ),
   gulp.series(
     server,
