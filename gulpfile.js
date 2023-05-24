@@ -135,7 +135,7 @@ export const build = gulp.series(
     svg,
     sprite,
     html,
-   // webp
+    webp
   )
 )
 
@@ -149,7 +149,7 @@ export default gulp.series(
     svg,
     sprite,
     html,
-  //  webp
+    webp
   ),
   gulp.series(
     server,
